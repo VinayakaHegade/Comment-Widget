@@ -1,0 +1,66 @@
+.message-container {
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;
+    margin: 20px 0;
+    padding-left: 50px;
+}
+
+.fa-user-circle {
+    position: absolute;
+    font-size: 2.2rem;
+    top: 0;
+    left: 0;
+    background-color: #d6d4d4;
+    padding: 2px;
+}
+
+.message-user {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(0, 140, 255);
+}
+
+.message-text {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.message-icons-container>* {
+    display: inline-block;
+    color: gray;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.replies-arrow{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.replies-arrow>* {
+    color: #4699de;
+    display: inline-block;
+}
+
+.replies-arrow> i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondary-btn {
+    cursor: pointer;
+    margin-left: 6px;
+}

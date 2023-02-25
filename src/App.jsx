@@ -1,13 +1,15 @@
-import { useState } from 'react'
-// import './App.css'
+import TopCommentsBox from "./components/CommentsBox/TopCommentsBox/TopCommentsBox";
+import CommentsScroll from "./components/CommentsScroll/CommentsScroll";
+import "./index.css";
 
 function App() {
-
   return (
-    <div className="App">
-    Hello User
+    <div className="ColHolder">
+      <h1>Comments</h1>
+      <TopCommentsBox autoFocus={false} />
+      <CommentsScroll />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

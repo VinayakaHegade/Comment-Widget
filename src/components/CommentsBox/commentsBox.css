@@ -1,0 +1,55 @@
+form {
+    overflow: auto;
+}
+
+form input[type="text"] {
+    width: 100%;
+    border: 2px solid lightgrey;
+    padding: 12px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+
+.comment-box {
+    position: relative;
+}
+
+/* .comment-line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+} */
+
+.btn{
+    font-size: 0.9rem;
+    font-weight: bold;
+    float: right;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* .btn-container{
+    float: right;
+} */
+
+.send-button{
+    background-color: #065fd4;
+    color: white;
+}
+
+.send-button:disabled{
+    color: white;
+    cursor: default;
+    background-color: #cccccc;
+}
+
+.cancel-button {
+    color: grey;
+    background-color: transparent;
+}
